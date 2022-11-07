@@ -1,0 +1,11 @@
+b = float(input('Informe um numero pra base menor: '))
+B = float(input('Informe um numero pra base maior: '))
+h = float(input('Informe um numero pra autura: '))
+
+def trap():
+
+    A = ((B + b)*h)/2
+    
+    return print(f'O valor da area eh: {A}')
+
+trap()
