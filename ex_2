@@ -1,0 +1,16 @@
+ti = float(input('qual a taxa do imposto?  '))
+c = float(input('qual o custo do produto?  '))
+
+def soma_imposto(taxa, custo):
+    venda = (taxa * custo)/100
+    return venda
+
+def total(taxa, custo):
+    tp = (1 + taxa /100)*custo
+    return tp
+
+vi = soma_imposto (ti, c)
+vp = total (ti, c)
+
+print (f'o valor q será adicionado: {vi}')
+print (f'o valor total: {vp}')
