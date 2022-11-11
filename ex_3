@@ -1,0 +1,11 @@
+def h(hor, min):
+    nh = hora if hora <=12 else hora -12
+    am_pm = 'am' if hora <12 else 'pm'
+    return str(nh)+':'+str(min)+am_pm
+
+while True:
+    hora = int(input('diga uma hora ou digite 0 para sair:  '))
+    if hora ==0:
+        break
+    minuto = int(input('diga qual minuto:  '))
+    print(h(hora, minuto))
